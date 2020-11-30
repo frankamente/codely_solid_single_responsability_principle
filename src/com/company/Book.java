@@ -9,7 +9,7 @@ public class Book {
         return "John Doe";
     }
 
-    public void printCurrentPage() {
-        System.out.println("current page content");
+    public String getCurrentPage() {
+        return "current page content";
     }
 }
